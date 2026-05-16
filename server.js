@@ -9,7 +9,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 let bannedStorage = new Set();
 
 // 📢 BURASI ÖNEMLİ: Geri bildirimlerin düşeceği Discord Kanal ID'sini buraya yaz!
-const FEEDBACK_CHANNEL_ID = "BURAYA_FEEDBACK_KANAL_ID_YAZ"; 
+const FEEDBACK_CHANNEL_ID = "1504664200713081004"; 
 
 // Roblox'tan geri bildirim alan kapı
 app.post('/send-feedback', async (req, res) => {
